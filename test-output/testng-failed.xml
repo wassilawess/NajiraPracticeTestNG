@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestParamenter]">
+  <test thread-count="5" name="Test 3(failed)">
+    <parameter name="userName" value="abc123"/>
+    <classes>
+      <class name="testNgPractice.ParameterDemo">
+        <methods>
+          <include name="launch"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testNgPractice.ParameterDemo -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+</suite> <!-- Failed suite [TestParamenter] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestGroups" duration-ms="15507" started-at="2020-07-08T14:57:20 CDT" finished-at="2020-07-08T14:57:35 CDT">
+    <groups>
+      <group name="inCorrect">
+        <method signature="GroupsDemo.incorrectPassword()[pri:0, instance:testNgPractice.GroupsDemo@79be0360]" name="incorrectPassword" class="testNgPractice.GroupsDemo"/>
+        <method signature="GroupsDemo.incorrectUserName()[pri:0, instance:testNgPractice.GroupsDemo@79be0360]" name="incorrectUserName" class="testNgPractice.GroupsDemo"/>
+      </group> <!-- inCorrect -->
+    </groups>
+    <test name="Test2" duration-ms="15507" started-at="2020-07-08T14:57:20 CDT" finished-at="2020-07-08T14:57:35 CDT">
+      <class name="testNgPractice.GroupsDemo">
+        <test-method status="PASS" signature="incorrectPassword()[pri:0, instance:testNgPractice.GroupsDemo@79be0360]" name="incorrectPassword" duration-ms="7321" started-at="2020-07-08T14:57:20 CDT" finished-at="2020-07-08T14:57:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPassword -->
+        <test-method status="PASS" signature="incorrectUserName()[pri:0, instance:testNgPractice.GroupsDemo@79be0360]" name="incorrectUserName" duration-ms="8120" started-at="2020-07-08T14:57:27 CDT" finished-at="2020-07-08T14:57:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUserName -->
+      </class> <!-- testNgPractice.GroupsDemo -->
+    </test> <!-- Test2 -->
+  </suite> <!-- TestGroups -->
+</testng-results>
